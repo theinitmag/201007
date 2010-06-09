@@ -1,0 +1,22 @@
+Please send articles at theinitmag[at]gmail[dot]com
+Add News for this month at http://wiki.github.com/theinitmag/201007/news-june-2010
+___________________________________________________________________________________________________________________
+
+The init Magazine
+2010 July Issue
+
+Put raw and edited articles in articles_raw/ and articles_edited/ folders respectively.
+
+* Article Naming Convention
+
+<title>_<author>.ext
+Replace spaces by '-'.
+
+eg,
+Linux-Kernel-for-Beginners_Linux-Torvalds.tex
+
+* Article Lists
+
+(put your name under <edited_by> for reservation)
+
+<s.no.> | <title> | <author> | <edit_status> | <edited_by>

@@ -1,0 +1,32 @@
+Managing Swappiness in ubuntu/kubuntu
+
+Depending upon your settings of swappiness, ubuntu might use the swap space even if there is enough RAM left. The use of swap space can cause a huge performance lag since every now and then the system has to read/write data from/to swap space that is in hard disk.
+Here are simple tricks to get out of such situation.
+# An immediate solution: Clear swap space (moves data from swap to memory)
+
+$ sudo swapoff -a
+$ sudo swapon -a
+
+# A temporary solution: Reduce the swappiness (lost on reboot)
+
+$ sudo sysctl vm.swappiness=5
+
+# A permanent solution: Reduce the swappiness
+
+$ sudo kate /etc/sysctl.conf
+or
+$ sudo gedit /etc/sysctl.conf
+
+Search for vm.swappiness, and change it to desired value
+
+vm.swappiness=5
+
+Source:
+https://help.ubuntu.com/community/SwapFaq
+Various forums
+
+
+---
+Sushil Shilpakar
+OTRC
+sushilshilpakar.com.np

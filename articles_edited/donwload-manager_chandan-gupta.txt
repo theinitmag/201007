@@ -1,0 +1,164 @@
+File downloads often face a lots of problems varying from temporary interruption of download to failed downloads and/or corrupted files from downloads. For places with slow internet connection, this becomes so habitual that it becomes a part of our online life. This problem becomes severe when you are dowloading large files like the DVD iso for the recent release of your favourite GNU/Linux distro. To ease your problem, we're brining to you a list of some of the best download managers labeled with their distinct features.Choose yours and get started.
+
+
+Generic Features of Download Managers
+======================================
+        Pausing the downloading of large files.
+        Resuming broken or paused downloads (especially for very large files).
+        Downloading files on poor connections.
+        Downloading several files from a site automatically according to simple rules (file types,updated files, etc. - see also Offline Browser).
+        Automatic recursive downloads (mirroring).
+        Scheduled downloads (including, automatic hang-up and shutdown).
+        Searching for mirror sites, and the handling of different connections to download the same
+        file more quickly (Segmented downloading).
+
+Wget
+======
+Wget is a network utility to retrieve files from the Web using http(s) and ftp, the two most widely used Internet protocols. It works non-interactively, so it will work in the background, after having logged off. The program supports recursive retrieval of web-authoring pages as well as ftp sites — you can use wget to make mirrors of archives and home pages or to travel the Web like a WWW robot.
+Wget works particularly well with slow or unstable connections by continuing to retrieve a document until the document is fully downloaded. Re-getting files from where it left off works on servers (both http and ftp) that support it. Both http and ftp retrievals can be time stamped, so wget can see if the remote file has changed since the last retrieval and automatically retrieve the new version if it has.
+Wget supports proxy servers; this can lighten the network load, speed up retrieval, and provide access behind firewalls.
+Wget is a default download manager for Ubuntu . Therefore you do not need to install it again.
+
+
+Gwget
+=======
+Gwget offers a GNOME front-end to the popular Wget application, with enhanced features, such as systray icon, multiple downloads and a powerful preferences manager.
+
+Install Gwget in Ubuntu
+------------------------
+# sudo aptitude install gwget
+
+
+Curl
+========
+Curl is a client to get files from servers using any of the supported protocols. The command is designed to work without user interaction or any kind of interactivity. Curl offers a busload of useful tricks like proxy support, user authentication, ftp upload, HTTP post, file transfer resume and more.
+
+Install curl in Ubuntu
+-----------------------
+# sudo aptitude install curl
+
+
+Axel
+=====
+Axel is a command-line downloader for unix-like operating systems. Unlike wget, axel includes download acceleration, which is achieved by using multiple connections for downloading the file. Starting from version 0.97, the program can use multiple mirrors for one download as well. The program tries to be as light as possible (25-30k in binary form), so it might be useful as a wget clone on byte-critical systems.
+
+Install axel in Ubuntu
+-----------------------
+# sudo aptitude install axel
+
+
+Wxdownloadfast
+===============
+wxDownload Fast (also known as wxDFast) is an open source download manager. It is multi-platform and can be used on Windows(2k,XP), Linux and Mac OS X (binary still not available). Besides that, it is a multi-threaded download manager. This means that it can split a file into several pieces and download the pieces simultaneously.
+
+Install Wxdownloadfast in Ubuntu
+---------------------------------
+Download .deb package from http://www.getdeb.net/app.php?name=wxdownload%20fast
+Install .deb package using the following command
+# sudo dpkg -i packagename
+
+
+Multiget
+=========
+MultiGet is an easy-to-use GUI file downloader for Windows/Linux/BSDs/MacOs. It’s programmed in C++ and has a GUI based on wxWidgets. It supports HTTP/FTP protocols which covers the requirements of most users. It supports multi-task with multi-thread on multi-server. It supports resuming downloads if the Web server supports it, and if you like, you can reconfig the
+thread number without stopping the current task. It’s also support SOCKS 4, 4a, 5 proxy, ftp proxy and http proxy.
+
+Install Multiget in Ubuntu
+---------------------------
+Download multiget .deb package from http://www.getdeb.net/app/MultiGet
+Install .deb package using the following command
+# sudo dpkg -i packagename
+
+
+Aria2
+======
+Aria2 is a command line download client with resuming and segmented downloading. It supports protocols like HTTP, HTTPS, FTP, BitTorrent and Metalink.
+
+Install aria2 in Ubuntu
+------------------------
+# sudo aptitude install aria2
+
+
+Downloader for X (d4x)
+=======================
+Downloader for X is a powerful graphical download manager. It supports both HTTP(S) and FTP protocols and has nice graphical user interface, though some actions can also be performed using the command line.
+Among others, its key features include proxy and SOCKS5 support, recursive downloading,wildcard matching, download scheduler, multiple download queues and many more.
+
+Install d4x in Ubuntu
+----------------------
+# sudo aptitude install d4x
+
+
+KDE KGET
+========
+KGET is a a download manager similar to GetRight or Go!zilla. It keeps all your downloads in one dialog and you can add and remove transfers. Transfers can be paused, resumed, queued or scheduled. Dialogs display information about status of transfers - progress, size, speed and remaining time.
+KGET supports drag and drop from KDE applications and Netscape.
+
+Install Kget in Ubuntu
+-----------------------
+# sudo aptitude install kget
+
+This package is part of KDE, as a component of the KDE network module. Therefore you need to install another KDE packages to run KGET on your Ubuntu.
+
+
+Desktop Data Manager
+=====================
+Desktop Data Manager, which is an open source application, is a clipboard manager, download manager, and advanced
+screenshot capturing application rolled into one. Desktop Data Manager actually installs three separate programs: DDM Screenshot, DDM Download, and Desktop Data Manager.
+
+Install Desktop Data Manager in Ubuntu
+---------------------------------------
+Download .deb package from http://data-manager.sourceforge.net/download.html
+and install using the following command
+# sudo dpkg -i packagename
+
+
+Jigdo
+======
+This is a BETA version of the jigdo GTK+ download manager. In particular, it is NOT yet capable of processing .jigdo files -- use jigdo-lite from the jigdo-file package for that! This download manager features FTP and HTTP 1.1 support, pausing, continuing and resuming of downloads, and automatic guessing of your proxy configuration.
+
+Install Jigdo in Ubuntu
+------------------------
+# sudo aptitude install jigdo
+
+
+Aria
+=====
+Aria is a download manager.The transfer can be paused, resumed, queued and saved. It has a very user friendly GTK based GUI, and useful log consoles. Program supports CRC checking, HTTP proxy server, cut-and-paste, drag-and-drop, and can define specific file retrieving procedure for particular web servers.
+
+Install aria in Ubuntu
+----------------------
+# sudo aptitude install aria
+
+
+Firefox Support
+================
+Firefox is a default web browser for Ubuntu and there exist a myriad of extension to assist in downloading files from the web. Few of the most popular Firefox download extensions are:
+
+DownThemAll!
+------------
+The first and only download manager/accelerator built inside Firefox! 
+
+FlashGot
+----------
+With this addon, you can download a single link, selected links or all the links of a page together at the maximum speed with a single click, using the most popular, lightweight and reliable external download managers.
+
+Video DownloadHelper
+--------------------
+This addon will help you to easily download videos off various website like youtube, metacafe and others. It also offers you a facility to covert the video format.
+
+Facepad
+--------
+Are you an avid facebooker and want to download photos off friend's photo albums? If yes, this tool can save you a lot of time.
+
+To obtain any of these firefox addons and install them:
+* Go to Tools>Add ons, and then type the above name.
+In seconds you can get done with the installation.
+
+
+I would like to recommend DownloadThemAll, Axel and curl. Have happy downloading hours.
+
+
+Chandan Prasad Gupta
+gupta.chandan1@gmail.com
+reference: ubuntugeek.com
